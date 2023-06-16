@@ -3,23 +3,40 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A83276B32A3CEB980081D5A0 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A83276B22A3CEB980081D5A0 /* MainTabView.swift */; };
+		A83276BB2A3CED4F0081D5A0 /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A83276BA2A3CED4F0081D5A0 /* FeedView.swift */; };
+		A83276BE2A3CED6B0081D5A0 /* WorkoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A83276BD2A3CED6B0081D5A0 /* WorkoutView.swift */; };
+		A83276C12A3CED7A0081D5A0 /* BMIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A83276C02A3CED7A0081D5A0 /* BMIView.swift */; };
+		A83276C42A3CED910081D5A0 /* UploadPostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A83276C32A3CED910081D5A0 /* UploadPostView.swift */; };
+		A83276C72A3CED9F0081D5A0 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A83276C62A3CED9F0081D5A0 /* ProfileView.swift */; };
+		A83276CC2A3CF7750081D5A0 /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A83276CB2A3CF7750081D5A0 /* FeedCell.swift */; };
 		A8CE19ED2A1327DB009DB7F6 /* CarnavalFitnessApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8CE19EC2A1327DB009DB7F6 /* CarnavalFitnessApp.swift */; };
 		A8CE19EF2A1327DB009DB7F6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8CE19EE2A1327DB009DB7F6 /* ContentView.swift */; };
 		A8CE19F12A1327DD009DB7F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8CE19F02A1327DD009DB7F6 /* Assets.xcassets */; };
 		A8CE19F42A1327DD009DB7F6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8CE19F32A1327DD009DB7F6 /* Preview Assets.xcassets */; };
+		A8CE1A042A132C0D009DB7F6 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = A8CE1A032A132C0D009DB7F6 /* Kingfisher */; };
+		A8CE1A072A132D52009DB7F6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A8CE1A062A132D52009DB7F6 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A83276B22A3CEB980081D5A0 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		A83276BA2A3CED4F0081D5A0 /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
+		A83276BD2A3CED6B0081D5A0 /* WorkoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutView.swift; sourceTree = "<group>"; };
+		A83276C02A3CED7A0081D5A0 /* BMIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BMIView.swift; sourceTree = "<group>"; };
+		A83276C32A3CED910081D5A0 /* UploadPostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadPostView.swift; sourceTree = "<group>"; };
+		A83276C62A3CED9F0081D5A0 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		A83276CB2A3CF7750081D5A0 /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
 		A8CE19E92A1327DB009DB7F6 /* CarnavalFitness.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarnavalFitness.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8CE19EC2A1327DB009DB7F6 /* CarnavalFitnessApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarnavalFitnessApp.swift; sourceTree = "<group>"; };
 		A8CE19EE2A1327DB009DB7F6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A8CE19F02A1327DD009DB7F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A8CE19F32A1327DD009DB7F6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A8CE19F52A1327DD009DB7F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8CE1A062A132D52009DB7F6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,12 +44,54 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8CE1A042A132C0D009DB7F6 /* Kingfisher in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A83276B52A3CED170081D5A0 /* Feed */ = {
+			isa = PBXGroup;
+			children = (
+				A83276BA2A3CED4F0081D5A0 /* FeedView.swift */,
+				A83276CB2A3CF7750081D5A0 /* FeedCell.swift */,
+			);
+			path = Feed;
+			sourceTree = "<group>";
+		};
+		A83276B62A3CED240081D5A0 /* Workouts */ = {
+			isa = PBXGroup;
+			children = (
+				A83276BD2A3CED6B0081D5A0 /* WorkoutView.swift */,
+			);
+			path = Workouts;
+			sourceTree = "<group>";
+		};
+		A83276B72A3CED2B0081D5A0 /* BMI */ = {
+			isa = PBXGroup;
+			children = (
+				A83276C02A3CED7A0081D5A0 /* BMIView.swift */,
+			);
+			path = BMI;
+			sourceTree = "<group>";
+		};
+		A83276B82A3CED360081D5A0 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				A83276C62A3CED9F0081D5A0 /* ProfileView.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		A83276B92A3CED3C0081D5A0 /* UploadPost */ = {
+			isa = PBXGroup;
+			children = (
+				A83276C32A3CED910081D5A0 /* UploadPostView.swift */,
+			);
+			path = UploadPost;
+			sourceTree = "<group>";
+		};
 		A8CE19E02A1327DB009DB7F6 = {
 			isa = PBXGroup;
 			children = (
@@ -52,10 +111,14 @@
 		A8CE19EB2A1327DB009DB7F6 /* CarnavalFitness */ = {
 			isa = PBXGroup;
 			children = (
-				A8CE19EC2A1327DB009DB7F6 /* CarnavalFitnessApp.swift */,
-				A8CE19EE2A1327DB009DB7F6 /* ContentView.swift */,
+				A8CE1A012A13298C009DB7F6 /* App */,
+				A8CE19FF2A132981009DB7F6 /* Utils */,
+				A8CE19FE2A13297C009DB7F6 /* Models */,
+				A8CE19FD2A132977009DB7F6 /* Views */,
+				A8CE19FC2A132972009DB7F6 /* ViewModels */,
 				A8CE19F02A1327DD009DB7F6 /* Assets.xcassets */,
 				A8CE19F52A1327DD009DB7F6 /* Info.plist */,
+				A8CE1A062A132D52009DB7F6 /* GoogleService-Info.plist */,
 				A8CE19F22A1327DD009DB7F6 /* Preview Content */,
 			);
 			path = CarnavalFitness;
@@ -67,6 +130,49 @@
 				A8CE19F32A1327DD009DB7F6 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A8CE19FC2A132972009DB7F6 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		A8CE19FD2A132977009DB7F6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A83276B92A3CED3C0081D5A0 /* UploadPost */,
+				A83276B82A3CED360081D5A0 /* Profile */,
+				A83276B72A3CED2B0081D5A0 /* BMI */,
+				A83276B62A3CED240081D5A0 /* Workouts */,
+				A83276B52A3CED170081D5A0 /* Feed */,
+				A83276B22A3CEB980081D5A0 /* MainTabView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A8CE19FE2A13297C009DB7F6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A8CE19FF2A132981009DB7F6 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		A8CE1A012A13298C009DB7F6 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				A8CE19EC2A1327DB009DB7F6 /* CarnavalFitnessApp.swift */,
+				A8CE19EE2A1327DB009DB7F6 /* ContentView.swift */,
+			);
+			path = App;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -85,6 +191,9 @@
 			dependencies = (
 			);
 			name = CarnavalFitness;
+			packageProductDependencies = (
+				A8CE1A032A132C0D009DB7F6 /* Kingfisher */,
+			);
 			productName = CarnavalFitness;
 			productReference = A8CE19E92A1327DB009DB7F6 /* CarnavalFitness.app */;
 			productType = "com.apple.product-type.application";
@@ -112,6 +221,9 @@
 				Base,
 			);
 			mainGroup = A8CE19E02A1327DB009DB7F6;
+			packageReferences = (
+				A8CE1A022A132C0D009DB7F6 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			productRefGroup = A8CE19EA2A1327DB009DB7F6 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -128,6 +240,7 @@
 			files = (
 				A8CE19F42A1327DD009DB7F6 /* Preview Assets.xcassets in Resources */,
 				A8CE19F12A1327DD009DB7F6 /* Assets.xcassets in Resources */,
+				A8CE1A072A132D52009DB7F6 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,8 +251,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A83276C72A3CED9F0081D5A0 /* ProfileView.swift in Sources */,
+				A83276BB2A3CED4F0081D5A0 /* FeedView.swift in Sources */,
 				A8CE19EF2A1327DB009DB7F6 /* ContentView.swift in Sources */,
+				A83276C42A3CED910081D5A0 /* UploadPostView.swift in Sources */,
 				A8CE19ED2A1327DB009DB7F6 /* CarnavalFitnessApp.swift in Sources */,
+				A83276C12A3CED7A0081D5A0 /* BMIView.swift in Sources */,
+				A83276B32A3CEB980081D5A0 /* MainTabView.swift in Sources */,
+				A83276BE2A3CED6B0081D5A0 /* WorkoutView.swift in Sources */,
+				A83276CC2A3CF7750081D5A0 /* FeedCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -328,6 +448,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A8CE1A022A132C0D009DB7F6 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.3.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A8CE1A032A132C0D009DB7F6 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A8CE1A022A132C0D009DB7F6 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = A8CE19E12A1327DB009DB7F6 /* Project object */;
 }
